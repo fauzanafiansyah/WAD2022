@@ -103,9 +103,9 @@
                                 }
                                 ?>
               </option>
-              <optioon value="Mercy Sprinter">Mercy Sprinter</option>
-              <optioon value="Toyota Alphard">Toyota Alphard</option>
-              <optioon value="Toyota Innova">Toyota Innova</option>
+              <option value="Mercy Sprinter">Mercy Sprinter</option>
+              <option value="Toyota Alphard">Toyota Alphard</option>
+              <option value="Toyota Innova">Toyota Innova</option>
             </select>
           </div>
 
@@ -117,19 +117,19 @@
           <div class="mb-3">
             <label for="Status">Status</label>
             <div class="form-check">
-              <input class="form-check-input" type="checbox" name="checbox[]" value="Health Protocol" id="Catering">
+              <input class="form-check-input" type="checkbox" name="checkbox[]" value="Health Protocol" id="health">
               <label class="form-check-label" for="Catering">
                 Health protocol / Rp25.000
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checbox" name="checbox[]" value="Driver" id="Decoration">
+              <input class="form-check-input" type="checkbox" name="checkbox[]" value="Driver" id="driver">
               <label class="form-check-label" for="Decoration">
                 Driver / Rp 100.000
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checbox" name="checbox[]" value="Fuel Filled" id="Sound">
+              <input class="form-check-input" type="checkbox" name="checkbox[]" value="Fuel Filled" id="full">
               <label class="form-check-label" for="Sound">
                 Fuel filled / Rp 250.000
               </label>
