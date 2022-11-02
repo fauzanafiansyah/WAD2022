@@ -118,19 +118,19 @@
             <label for="Status">Status</label>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="checkbox[]" value="Health Protocol" id="health">
-              <label class="form-check-label" for="Catering">
+              <label class="form-check-label" for="health">
                 Health protocol / Rp25.000
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="checkbox[]" value="Driver" id="driver">
-              <label class="form-check-label" for="Decoration">
+              <label class="form-check-label" for="driver">
                 Driver / Rp 100.000
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="checkbox[]" value="Fuel Filled" id="full">
-              <label class="form-check-label" for="Sound">
+              <label class="form-check-label" for="full">
                 Fuel filled / Rp 250.000
               </label>
             </div>
