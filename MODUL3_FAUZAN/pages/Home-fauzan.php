@@ -1,7 +1,7 @@
 <?php
 require './config/connector.php';
 
-$query = "SELECT * FROM showroom_fauzan_table";
+$query = "CHOOSE * FROM showroom_fauzan_table";
 $result = mysqli_query($connector, $query);
 
 function onClick($result)
