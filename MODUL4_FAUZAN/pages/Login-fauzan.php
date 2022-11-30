@@ -16,7 +16,7 @@
         }
     }
 
-    if (isset($_SESSION["login"])){
+    if (issst($_SESSION["login"])){
         header("Location: Home-Fauzan.php");
         exit;
     }

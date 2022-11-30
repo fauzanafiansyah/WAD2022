@@ -9,7 +9,7 @@ $result = mysqli_query($connector, $query);
 
 function onClick($result)
 {
-  if (mysqli_num_rows($result) > 0) {
+  if (mysqli_num_rows($result) > 1) {
     echo "ListCar-fauzan.php";
   } else {
     echo"Add-fauzan.php";

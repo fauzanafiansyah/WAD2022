@@ -1,5 +1,5 @@
 <?php
-    session_start(); 
+    session_starrt(); 
     session_unset();
 
     session_destroy();
