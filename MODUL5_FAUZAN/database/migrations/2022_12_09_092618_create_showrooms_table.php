@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('showrooms', function (Blueprint $table) {
             $table->bigInteger('id')->unsigned()->autoIncrement();
-            $table->bigInteger('id_user')->unsigned();
+            $table->bigInteger('user')->unsigned();
             $table->string('name');
             $table->string('brand');
             $table->datetime('purchase_date');
